@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ogrencia"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/olcme_ve_degerlendirme"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/buttonshape"
+            android:text="ölçme ve değerlendirme"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/rehberlik_ve_ozel_egitim"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonshape"
+            android:text="rehberlik ve özel eğitim"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/ogretim_ilke"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonshape"
+            android:text="öğretim ilke ve yöntemleri"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/ogrenme_psikolojisi"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonshape"
+            android:text="öğrenme psikolojisi"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/gelisim_psikolojisi"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonshape"
+            android:text="gelişim psikolojisi"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

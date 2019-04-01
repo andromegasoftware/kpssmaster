@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ogrencia"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tarih"
+            android:layout_width="400dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/buttonshape"
+            android:text="tarih"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/cografya"
+            android:layout_width="400dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonshape"
+            android:text="coğrafya"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/vatandaslik"
+            android:layout_width="400dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonshape"
+            android:text="vatandaşlık"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/guncelbilgiler"
+            android:layout_width="400dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonshape"
+            android:text="güncel bilgiler"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/genel_kultur_karisik"
+            android:layout_width="400dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonshape"
+            android:text="karışık"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

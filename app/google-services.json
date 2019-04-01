@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "386475306830",
+    "firebase_url": "https://kpssmaster.firebaseio.com",
+    "project_id": "kpssmaster",
+    "storage_bucket": "kpssmaster.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386475306830:android:ba4f646966804c41",
+        "android_client_info": {
+          "package_name": "com.kadir.kpssmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386475306830-e9n8agbl5ijfi48facgspcntv73kptpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kadir.kpssmaster",
+            "certificate_hash": "27c0eafc8df0b629e4c408213a7b0252471a72e9"
+          }
+        },
+        {
+          "client_id": "386475306830-sp1hfk5gv3tsilhvvt3li0rlgv44429h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4DpPln1uYrPIG77X4boBNoPdxRSxa64g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386475306830-sp1hfk5gv3tsilhvvt3li0rlgv44429h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

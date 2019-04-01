@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebd5a7"
+    tools:context=".forum">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ebd5a7"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3206398076180977/9199833568"></com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Bu Forumda Diğer Arkadaşlarınız ile KPSS Hakkında Bilgi Paylaşımında Bulunabilirsiniz."
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:stackFromBottom="true">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/mesaj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Mesajınızı buraya yazabilirsiniz"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/gonder"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Gönder" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

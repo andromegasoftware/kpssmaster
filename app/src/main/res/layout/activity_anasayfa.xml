@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anasayfa"
+    android:id="@+id/drawer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/e"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/kullanici_name"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonshape"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Merhaba KPSS Adayı"
+            android:textColor="@android:color/black" />
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/buttonshape"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="KPSS Genel Yetenek-Genel Kültür Sınavına Kalan Süre"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/soru_bankasi"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:text="soru bankası" />
+
+        <Button
+            android:id="@+id/video"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonshape"
+            android:text="Konu Anlatım Videoları" />
+
+        <Button
+            android:id="@+id/forum"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonshape"
+            android:text="Forum-Mesajlaşma" />
+
+        <Button
+            android:id="@+id/puan_hesaplama"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonshape"
+            android:text="KPSS PUAN HESAPLAMA Aracı" />
+
+        <Button
+            android:id="@+id/reklam_kaldir"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonshape"
+            android:text="Reklamları kaldırmak ve Bize destek olmak istermisiniz" />
+
+        <Button
+            android:id="@+id/digeruygulamalar"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonshape"
+            android:text="Diğer Ücretsiz Uygulamalarımızı Görmek İstermisiniz" />
+
+
+    </LinearLayout>
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_layout"
+        android:id="@+id/navigation_view">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

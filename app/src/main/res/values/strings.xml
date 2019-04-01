@@ -1,0 +1,302 @@
+<resources>
+    <string name="app_name">KPSS MASTER</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="facebook_app_id">281019602725185</string>
+    <string name="fb_login_protocol_scheme">fb281019602725185</string>
+
+
+    <string name="Sozlesme"><a href="https://docs.google.com/document/d/e/2PACX-1vSveV3Uo5Kjo16SEsZMD18tg0HnlxAqwd1uBNsmHdxWEUa0cAasUzbDKw8IrJcaNG7y2YFPBiBh6t5v/pub">Mobil Uygulama Kullanım Koşulları, Gizlilik ve Kişisel Verilerin Korunması Politikasını Kabul Ediyorum.</a></string>
+
+    <string-array name="turkce_konular">
+        <item>SES BİLGİSİ-1</item>
+        <item>SES BİLGİSİ-2</item>
+        <item>SES BİLGİSİ-3</item>
+        <item>YAZIM KURALLARI-1</item>
+        <item>YAZIM KURALLARI-2</item>
+        <item>YAZIM KURALLARI-3</item>
+        <item>NOKTALAMA İŞARETLERİ-1</item>
+        <item>NOKTALAMA İŞARETLERİ-2</item>
+        <item>DİL BİLGİSİ-1</item>
+        <item>DİL BİLGİSİ-2</item>
+        <item>DİL BİLGİSİ-3</item>
+        <item>DİL BİLGİSİ-4</item>
+        <item>DİL BİLGİSİ-5</item>
+        <item>DİL BİLGİSİ-6</item>
+        <item>DİL BİLGİSİ-7</item>
+        <item>DİL BİLGİSİ-8</item>
+        <item>DİL BİLGİSİ-9</item>
+        <item>DİL BİLGİSİ-10</item>
+        <item>ANLATIM BOZUKLUKLARI-1</item>
+        <item>ANLATIM BOZUKLUKLARI-2</item>
+        <item>ANLATIM BOZUKLUKLARI-3</item>
+        <item>ANLATIM BOZUKLUKLARI-4</item>
+        <item>SÖZCÜKTE VE SÖZ ÖBEĞİNDE ANLAM-1</item>
+        <item>SÖZCÜKTE VE SÖZ ÖBEĞİNDE ANLAM-2</item>
+        <item>SÖZCÜKTE VE SÖZ ÖBEĞİNDE ANLAM-3</item>
+        <item>SÖZCÜKTE VE SÖZ ÖBEĞİNDE ANLAM-4</item>
+        <item>CÜMLEDE ANLAM-1</item>
+        <item>CÜMLEDE ANLAM-2</item>
+        <item>CÜMLEDE ANLAM-3</item>
+        <item>CÜMLEDE ANLAM-4</item>
+        <item>PARAGRAFTA ANLATIM-1</item>
+        <item>PARAGRAFTA ANLATIM-2</item>
+        <item>PARAGRAFTA ANLAM</item>
+        <item>PARAGRAFTA YAPI</item>
+    </string-array>
+    <string-array name="matematik_konular">
+        <item>TEMEL KAVRAMALAR PART 1</item>
+        <item>TEMEL KAVRAMALAR PART 2</item>
+        <item>ÇÖZÜMLEME</item>
+        <item>ASAL SAYILAR VE ASAL ÇARPANLAR</item>
+        <item>BÖLME VE BÖLÜNEBİLME</item>
+        <item>RASYONEL SAYILAR 1</item>
+        <item>RASYONEL SAYILAR 2</item>
+        <item>BASİT EŞİTSİZLİK</item>
+        <item>ORAN VE ORANTI</item>
+        <item>DENKLEM ÇÖZME</item>
+        <item>ÜSLÜ SAYILAR</item>
+        <item>KÖKLÜ SAYILAR</item>
+        <item>SAYI KESİR PROBLEMLERİ</item>
+        <item>YAŞ PROBLEMLERİ</item>
+        <item>YÜZDE PROBLEMLERİ</item>
+        <item>HAREKET PROBLEMLERİ</item>
+        <item>KARIŞIM PROBLEMLERİ</item>
+        <item>FAKTÖRİYEL</item>
+        <item>KÜMELER</item>
+        <item>KOMBİNASYON</item>
+        <item>İŞÇİ HAVUZ PROBLEMLERİ</item>
+        <item>MUTLAK DEĞER</item>
+        <item>ÇARPANLARA AYIRMA</item>
+        <item>OBEB - OKEK</item>
+    </string-array>
+    <string-array name="cografya_konular">
+        <item>COĞRAFYA PART 1</item>
+        <item>COĞRAFYA PART 2</item>
+        <item>COĞRAFYA PART 3</item>
+        <item>COĞRAFYA PART 4</item>
+        <item>COĞRAFYA PART 5</item>
+        <item>COĞRAFYA PART 6</item>
+        <item>COĞRAFYA PART 7</item>
+        <item>COĞRAFYA PART 8</item>
+        <item>COĞRAFYA PART 9</item>
+        <item>COĞRAFYA PART 10</item>
+        <item>COĞRAFYA PART 11</item>
+        <item>COĞRAFYA PART 12</item>
+        <item>COĞRAFYA PART 13</item>
+        <item>COĞRAFYA PART 14</item>
+    </string-array>
+    <string-array name="tarih_konular">
+        <item>İSLAMİYET ÖNCESİ TÜRK TARİHİ</item>
+        <item>İSLAMİYET ÖNCESİ TÜRK DEVLETLERİ KÜLTÜR VE MEDENİYETİ</item>
+        <item>İLK TÜRK-İSLAM DEVLETLERİ TARİHİ 1</item>
+        <item>İLK TÜRK-İSLAM DEVLETLERİ TARİHİ 2</item>
+        <item>İLK TÜRK-İSLAM DEVLETLERİ TARİHİ 3</item>
+        <item>İLK TÜRK-İSLAM DEVLETLERİ TARİHİ 4</item>
+        <item>TÜRKİYE ANADOLU TARİHİ</item>
+        <item> TÜRKİYE ANADOLU TARİHİ KÜLTÜR MEDENİYET</item>
+        <item>OSMANLI KURULUŞ</item>
+        <item>OSMANLI KÜLTÜR 1</item>
+        <item>OSMANLI KÜLTÜR 2</item>
+        <item>OSMANLI KÜLTÜR VE MEDENİYETİ</item>
+        <item>OSMANLI KÜLTÜR VE MEDENİYETİ (EKONOMİ)</item>
+        <item>OSMANLI DEVLETİ KÜLTÜR VE MEDENİYET (EĞİTİM-BİLİM-MİMARİ)</item>
+        <item>OSMANLI DEVLETİ YÜKSELME DÖNEMİ</item>
+        <item>OSMANLI DEVLETİ DURAKLAMA DÖNEMİ</item>
+        <item>OSMANLI DEVLETİ GERİLEME DÖNEMİ</item>
+        <item>OSMANLI DEVLETİ DAĞILMA DÖNEMİ</item>
+        <item>OSMANLI DEVLETİ DAĞILMA DÖNEMİ ISLAHATLARI</item>
+        <item>AVRUPADA YAŞANAN GELİŞMELER</item>
+        <item>20.YY OSMANLI DEVLETİ</item>
+        <item>1. BALKAN SAVAŞI</item>
+        <item>1. DÜNYA SAVAŞI</item>
+        <item>OSMANLI DEVLETİ CEPHELER</item>
+        <item>MONDROS ATEŞKES ANTLAŞMASI VE MONDROSTAN SONRA KURULAN CEMİYETLER</item>
+        <item>KURTULUŞ SAVAŞI HAZIRLIK DÖNEMİ</item>
+        <item>AMASYA GÖRÜŞMELERİ VE MİSAK-I MİLLİ</item>
+        <item>KURTULUŞ SAVAŞI BASIN YAYIN ORGANLARI</item>
+        <item>KURTULUŞ SAVAŞI MİLLİ MÜCADELE MUHAREBELER DÖNEMİ</item>
+        <item>BATI CEPHESİ</item>
+        <item>1. TBMM DÖNEMİ</item>
+        <item>SEVR ANTLAŞMASI</item>
+        <item>ÇAĞDAŞ TÜRK TARİHİ</item>
+        <item>ATATÜRK DÖNEMİ İNKILAPLAR</item>
+        <item>ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ: II. DÜNYA SAVAŞI</item>
+        <item>ATATÜRK İLKELERİ</item>
+        <item> ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ: SOĞUK SAVAŞ DÖNEMİ</item>
+        <item>ATATÜRK DÖNEMİ DIŞ POLİTİKA</item>
+        <item>ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ: YUMUŞAMA DÖNEMİ</item>
+        <item> ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ: KÜRESELLEŞME</item>
+    </string-array>
+    <string-array name="vatandaslik_konular">
+        <item>01) KPSS Vatandaşlık - Toplumsal Düzen Kuralları</item>
+        <item>02) KPSS Vatandaşlık - Yaptırım Kavramı</item>
+        <item>03) KPSS Vatandaşlık -Yaptırım Kavramı-2</item>
+        <item>04) KPSS Vatandaşlık -Hukuk Kurallarının Çeşitleri ve Anlamları </item>
+        <item>05) KPSS Vatandaşlık -Hukukun Kaynakları</item>
+        <item>06) KPSS Vatandaşlık - Hukukta Yorum Türleri-Boşluk Türleri</item>
+        <item>07) KPSS Vatandaşlık - Hukukun Dalları</item>
+        <item>08) KPSS Vatandaşlık - Hukukun Dalları-2</item>
+        <item>09) KPSS Vatandaşlık - Hukukun Dalları-3</item>
+        <item>10) KPSS Vatandaşlık - Ehliyet Türleri</item>
+        <item>11) KPSS Vatandaşlık - Hısımlık Kavramı</item>
+        <item>12) KPSS Vatandaşlık - Borçlar Hukuku ve Diğer Hukuk Dalları</item>
+        <item>13) KPSS Vatandaşlık - Anayasa ve Devlet Türleri</item>
+        <item>14) KPSS Vatandaşlık - Hükümet Sistemleri ve Demokrasi Tipleri</item>
+        <item>15) KPSS Vatandaşlık - Anayasal Gelişmeler ve Kanuni Esasi</item>
+        <item>16) KPSS Vatandaşlık - 1921 Anayasası ve Anayasa Değişiklikleri</item>
+        <item>17) KPSS Vatandaşlık - 1961 Anayasası ve Anayasa Değişiklikleri</item>
+        <item>18) KPSS Vatandaşlık - 1982 Anayasasının Başlangıç Hükümleri</item>
+        <item>19) KPSS Vatandaşlık - Temel Hak ve Hürriyetlere İlişkin Genel Hükümler</item>
+        <item>20) KPSS Vatandaşlık - Temel Hak ve Hürriyetlerin Sınıflandırılması</item>
+        <item>21) KPSS Vatandaşlık - Yasamanın İlkeleri ve Kanun Kavramı</item>
+        <item>22) KPSS Vatandaşlık - Milletvekilliği Kavramı ve Seçimler</item>
+        <item>23) KPSS Vatandaşlık - Kanun ve Anayasa Değişikliği Yapma Süreci</item>
+        <item>24) KPSS Vatandaşlık - TBMM nin Görevleri</item>
+        <item>25) KPSS Vatandaşlık - Yasama Dokunulmazlığı ve Sorumsuzluk Kavramı </item>
+        <item>26) KPSS Vatandaşlık - Yasama ile İlgili Temel Kavramlar</item>
+        <item>27) KPSS Vatandaşlık - Cumhurbaşkanı Seçilme Süreci ve Görevleri</item>
+        <item>28) KPSS Vatandaşlık - Cumhurbaşkanlığı Teşkilatı ve Temel Kavramlar</item>
+        <item>29) KPSS Vatandaşlık - Yargının İlkeleri ve Anayasa Mahkemesi</item>
+        <item>30) KPSS Vatandaşlık - Soyut-Somut Norm Denetimi ve Yargısal Organlar</item>
+        <item>31) KPSS Vatandaşlık - İdare Hukukunun Temel Kavramları</item>
+        <item>32) KPSS Vatandaşlık - Merkezi Teşkilat </item>
+        <item>33) KPSS Vatandaşlık - Yerinden Yönetim ve Hiyerarşi</item>
+        <item>34) KPSS Vatandaşlık - İdare Hukukuna Ait Temel Kavramlar</item>
+        <item>35) KPSS Vatandaşlık - Kamu Görevlileri</item>
+
+    </string-array>
+    <string-array name="olcme_ve_degerlendirme_konular">
+        <item>01) KPSS -Ölçme ve Değerlendirme-Ölçme Ve Temel Kavramlar-1</item>
+        <item>02) KPSS -Ölçme ve Değerlendirme-Ölçme Ve Temel Kavramlar-2</item>
+        <item>03) KPSS - Ölçme ve Değerlendirme - Ölçme Türleri Ve Ölçmede Sıfır</item>
+        <item>04) KPSS - Ölçme Ve Değerlendirme - Değerlendirme Ve Değerlendirme Türleri</item>
+        <item>05) KPSS Eğitim Bilimleri - Ölçme ve Değerlendirme - Ölçekler (Ölçme Düzeyleri) </item>
+        <item>06) KPSS Ölçme Ve Değerlendirme - Değerlendirme Türleri Ve Ölçmede Hata </item>
+        <item>07) KPSS Eğitim Bilimleri - Ölçme Ve Değerlendirme - Ölçmede Hata Türleri</item>
+        <item>08) KPSS - Ölçme Ve Değerlendirme - Korelasyon Katsayısı, Güvenirlik </item>
+        <item>09) KPSS - Ölçme Ve Değerlendirme - Güvenirlik Belirleme Yöntemleri</item>
+        <item>10) KPSS Ölçme Ve Değerlendirme - Güvenirlik Ve Güvenirliği Etkileyen Etkenler</item>
+        <item>11)KPSS Eğitim Bilimleri - Ölçme Ve Değerlendirme- Geçerlik Ve Geçerlik Türleri </item>
+        <item>12) KPSS Eğitim Bilimleri - Ölçme Ve Değerlendirme - Geçerlik Türleri</item>
+        <item>13)KPSS Ölçme Ve Değerlendirme -Geçerlik Türleri ve Geçerliği Etkileyen Etkenler </item>
+        <item>14)KPSS Ölçme Ve Değerlendirme -Güvenirlik Ve Geçerlik İlişkisi, Kullanışlılık</item>
+        <item>15) KPSS Eğitim Bilimleri - Ölçme Ve Değerlendirme - Test İstatistikleri 1</item>
+        <item>16) KPSS Eğitim Bilimleri - Ölçme Ve Değerlendirme - Test İstatistikleri 2</item>
+        <item>17)KPSS-Ölçme ve Değerlendirme -Başarılı Başarısız Grup Bulma ve Dağılım Eğrileri</item>
+        <item>18) KPSS - Ölçme ve Değerlendirme - Standart Puanlar Ve Standart Hata</item>
+        <item>19) KPSS - Ölçme ve Değerlendirme - Standart Hata Ve Madde İstatistikleri</item>
+        <item>20) KPSS - Ölçme ve Değerlendirme - Madde İstatistikleri</item>
+        <item>21) KPSS Eğitim Bilimleri - Ölçme ve Değerlendirme</item>
+        <item>22) KPSS - Ölçme ve Değerlendirme - Çağdaş Ölçme Araçları, Puanlama Araçları</item>
+    </string-array>
+
+    <string-array name="ozel_egitim_ve_rehberlik_konular">
+        <item>01) KPSS Eğitim B.Rehberlik ve Özel Eğitim - Çağdaş Eğitim ve Ö.K.H</item>
+        <item>02) KPSS Eğitim Bilimleri - Rehberlik ve Özel Eğitim - Rehberliğe Giriş </item>
+        <item>03) KPSS Rehberlik ve Özel Eğitim- Kendini Gerçekleştiren İnsanların Özellik</item>
+        <item>04) KPSS Rehberlik ve Özel Eğitim - Rehberliğin İlkeleri</item>
+        <item>05) KPSS Rehberlik ve Özel Eğitim - Rehberliğin Gelişimi </item>
+        <item>06) KPSS Rehberlik ve Özel Eğitim - Rehberlik Hizmet Alanları 1</item>
+        <item>07) KPSS Rehberlik ve Özel Eğitim - Rehberlik Hizmet Alanları 2</item>
+        <item>08) KPSS Rehberlik ve Özel Eğitim - Rehberlik Türleri </item>
+        <item>09) KPSS Rehberlik ve Özel Eğitim - Temel İşlevine Göre Rehberlik</item>
+        <item>10) KPSS Rehberlik ve Özel Eğitim - Eğitsel Rehberlik</item>
+        <item>11) KPSS Rehberlik ve Özel Eğitim - Kişisel Sosyal Rehberlik </item>
+        <item>12) KPSS Rehberlik ve Özel Eğitim - Mesleki Rehberlik</item>
+        <item>13) KPSS Eğitim Bilimleri - Rehberlik ve Özel Eğitim - Mesleki Rehberlik 2 </item>
+        <item>14) KPSS Eğitim Bilimleri - Rehberlik ve Özel Eğitim - Mesleki Rehberlik 3 </item>
+        <item>15) KPSS Eğitim Bilimleri - Rehberlik ve Özel Eğitim - Mesleki Rehberlik 4 </item>
+        <item>16) KPSS Rehberlik ve Özel Eğitim - Eğitim Kademelerine Göre Rehberlik</item>
+        <item>17) KPSS Rehberlik ve Özel Eğitim - Birey Tanıma</item>
+        <item>18) KPSS Rehberlik ve Özel Eğitim - Birey Tanımada Test Teknikleri</item>
+        <item>19) KPSS Rehberlik ve Özel Eğitim - Gözleme Dayalı Teknikler</item>
+        <item>20) KPSS Rehberlik - Derecelendirme Ölçeklerine Karışan Hata Türleri</item>
+        <item>21) KPSS Rehberlik ve Özel Eğitim - Kendini Anlatmaya Dayalı Teknikler</item>
+        <item>22) KPSS Rehberlik ve Özel Eğitim - Başkalarının Kanılarına Dayalı Teknikler</item>
+        <item>23) KPSS Rehberlik ve Özel Eğitim - Etkileşime Dayalı ve Diğer Teknikler</item>
+        <item>24) KPSS Eğitim Bilimleri - Rehberlik ve Özel Eğitim - İletişim</item>
+        <item>25) KPSS Rehberlik ve Özel Eğitim - İletişimde Temel İlkeler </item>
+        <item>26) KPSS Rehberlik ve Özel Eğitim - İletişim Dilleri ve Teknikleri </item>
+        <item>27) KPSS Rehberlik ve Özel Eğitim - Çatışma Yönetimi ve Jo-hari Penceresi</item>
+        <item>28) KPSS Rehberlik ve Özel Eğitim - Rehberlik Örgütü</item>
+        <item>29) KPSS Rehberlik ve Özel Eğitim - Özel Eğitim Hizmetleri </item>
+    </string-array>
+
+    <string-array name="ogretim_ilke_ve_yontemler_konular">
+        <item>01) KPSS - Eğitim Bilimleri - Öğretim İlke ve Yöntemleri - Öğretim İlkeleri -1</item>
+        <item>02) KPSS - Eğitim Bilimleri - Öğretim İlke ve Yöntemleri -2</item>
+        <item>03) KPSS - Eğitim Bilimleri - Öğretim İlke ve Yöntemleri -3</item>
+        <item>04) KPSS - Öğretim İlke ve Yöntemleri - Öğretim Model ve Yaklaşımları -1</item>
+        <item>05) KPSS - Öğretim İlke Ve Yöntemleri - Öğretim Model Ve Yaklaşımları -2</item>
+        <item>06) KPSS - Öğretim İlke Ve Yöntemleri - Öğretim Model Ve Yaklaşımları -3</item>
+        <item>07) KPSS - Eğitim Bilimleri - Öğretim Model Ve Yaklaşımları 4</item>
+        <item>08) KPSS-Eğitim Bilimleri - Öğretim İlke ve Yöntemleri-Model ve Yaklaşımlar-5</item>
+        <item>09) KPSS -Öğretim ilke ve Yöntemleri- Öğretim Stratejileri Ve Düşünme Becerileri</item>
+        <item>10) KPSS - Eğitim Bilimleri - Öğretim İlke ve Yöntemleri -Öğretim Yöntemleri -1</item>
+        <item>11) KPSS - Eğitim Bilimleri - Öğretim İlke ve Yöntemleri -Öğretim Yöntemleri -2</item>
+        <item>12) KPSS - Eğitim Bilimleri - Öğretim İlke ve Yöntemleri - Öğretim Teknikleri -1</item>
+        <item>13) KPSS - Eğitim Bilimleri - Öğretim İlke ve Yöntemleri - Öğretim Teknikleri -2</item>
+        <item>14) KPSS - Eğitim Bilimleri - Öğretim İlke ve Yöntemleri - Öğretim Teknikleri -3</item>
+    </string-array>
+    <string-array name="ogrenme_psikolojisi_konular">
+        <item>01) KPSS Eğitim Bilimleri - Öğrenme Psikolojisi - Giriş -1</item>
+        <item>02) KPSS Öğrenme Psi.- Davranışcı Kuramların Temel İlke., Klasik Koşullanma1</item>
+        <item>03) KPSS Öğrenme Psikolojisi - Davranışcı Kuramların Temel İlkeleri</item>
+        <item>04) KPSS Eğitim Bilimleri - Öğrenme Psikolojisi -Klasik Koşullanma 2</item>
+        <item>05) KPSS Eğitim Bilimleri - Öğrenme Psikolojisi - Klasik Koşullanma 3</item>
+        <item>06) KPSS Eğitim Bilimleri - Öğrenme Psikolojisi - Klasik Koşullanma 4</item>
+        <item>07) KPSS - Öğrenme Psikolojisi - Bitişiklik Kuramları Ve Bağ Kuramı </item>
+        <item>08) KPSS Eğitim Bilimleri - Öğrenme Psikolojisi - Edimsel Koşullanma 1</item>
+        <item>09) KPSS Eğitim Bilimleri - Öğrenme Psikolojisi - Edimsel Koşullanma 2</item>
+        <item>10) KPSS Eğitim Bilimleri - Öğrenme Psikolojisi - Edimsel Koşullanma 3</item>
+        <item>11) KPSS Eğitim Bilimleri - Öğrenme Psikolojisi - Edimsel Koşullanma 4</item>
+        <item>12) KPSS Öğrenme Psiko.-Bilişsel Kur. Temel İlkeleri,Bilgiyi İşleme Kuramı 1</item>
+        <item>13) KPSS - Öğrenme Psikolojisi - Bilgiyi İşleme Kuramı 2</item>
+        <item>14) KPSS Eğitim Bilimleri - Öğrenme Psikolojisi - Gestalt Kuramı</item>
+        <item>15) KPSS - Öğrenme Psikolojisi - Bilişssel Ağırlıklı Davranışcı Kuramlar</item>
+        <item>16) KPSS - Öğrenme Psikolojisi - Öğrenme Kuramları</item>
+    </string-array>
+
+    <string-array name="gelisim_psikolojisi_konular">
+        <item>01) KPSS - Gelişim Psikolojisi - Gelişim Psikolojisine Giriş 1</item>
+        <item>02) KPSS - Gelişim Psikolojisi - Gelişim Psikolojisine Giriş 2</item>
+        <item>03) KPSS - Gelişim Psikolojisi- Gel. Psikoloji. Giriş 3</item>
+        <item>04) KPSS Gelişim Psikolojii -Gelişim Psiko. Giriş - Zihinsel Gelişim 1</item>
+        <item>05) KPSS - Gelişim Psikolojisi -Gelişim Psiko. Giriş - Zihinsel Gelişim 2</item>
+        <item>06) KPSS - Gelişim Psikolojisi -Gelişim Psiko. Giriş - Zihinsel Gelişim 3</item>
+        <item>07) KPSS - Gelişim Psikolojisi - Gelişim Psiko. Giriş - Zihinsel Gelişim 4</item>
+        <item>08) KPSS - Gelişim Psikolojisi - G. P. Giriş - Ahlak Gelişimi</item>
+        <item>09) KPSS - Gelişim Psikolojisi - Gelişim Psi. Giriş - Kişilik Gelişimi 1</item>
+        <item>10) KPSS - Gelişim Psikolojisi - G. P. Giriş - Kişilik Gelişimi 2</item>
+        <item>11) KPSS - Gelişim Psikolojisi - G. P. Giriş - Kişilik Gelişimi 3</item>
+        <item>12) KPSS - Gelişim Psikolojisi - G. P. Giriş - Kişilik Gelişimi 4</item>
+        <item>13) KPSS - Gelişim Psikolojisi - G. P. Giriş - Kişilik Gelişimi 5</item>
+        <item>14) KPSS - Gelişim Psikolojisi - G. P. Giriş - Kişilik Gelişimi 6</item>
+        <item>15) KPSS - Gelişim Psikolojisi - Gelişim Psiko. Giriş - Dil Gelişimi</item>
+        <item>16) KPSS - Gelişim Psikolojisi- Fiziksel ve Psiko Motor Gelişim</item>
+    </string-array>
+
+    <string-array name="geometri_konular">
+        <item>DERS-1</item>
+        <item>DERS-2</item>
+        <item>DERS-3</item>
+        <item>DERS-4</item>
+        <item>DERS-5</item>
+        <item>DERS-6</item>
+        <item>DERS-7</item>
+        <item>DERS-8</item>
+        <item>DERS-9</item>
+        <item>DERS-10</item>
+        <item>DERS-11</item>
+        <item>DERS-12</item>
+        <item>DERS-13</item>
+        <item>DERS-14</item>
+        <item>DERS-15</item>
+        <item>DERS-16</item>
+        <item>DERS-17</item>
+        <item>DERS-18</item>
+        <item>DERS-19</item>
+    </string-array>
+
+</resources>

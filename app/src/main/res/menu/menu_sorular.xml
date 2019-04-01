@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/anasayfayadon"
+        android:title="Anasayfa"
+        android:icon="@mipmap/ic_home_black_24dp"></item>
+
+    <item android:id="@+id/sinavibitir"
+        android:title="Sınavı Bitir"
+        android:icon="@mipmap/ic_visibility_black_24dp"></item>
+
+    <item android:id="@+id/sureyidurdur"
+        android:title="Süreyi Durdur"
+        android:icon="@mipmap/ic_hourglass_full_black_24dp">
+    </item>
+    <item
+        android:id="@+id/dogrucevabigoster"
+        android:icon="@drawable/baseline_done_black_18dp"
+        android:title="Doğru Cevabı Göster" />
+
+    <item
+        android:id="@+id/hatalisoru"
+        android:icon="@mipmap/baseline_create_black_24dp"
+        android:title="Hatalı Soru Bildir" />
+
+
+
+</menu>

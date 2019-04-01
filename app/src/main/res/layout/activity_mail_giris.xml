@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mail_giris"
+    android:background="@mipmap/krem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+            app:srcCompat="@drawable/bildirim_default_image" />
+
+        <EditText
+            android:id="@+id/isim"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:ems="10"
+            android:hint="Lütfen İsminizi Giriniz"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/girisyap"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="#ffffff"
+            android:text="Giriş Yap"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textColorLink="@android:color/holo_red_light"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

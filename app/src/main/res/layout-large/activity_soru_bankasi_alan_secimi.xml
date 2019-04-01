@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ogrencia"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/genel_yetenek"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/buttonshape"
+            android:text="genel yetenek"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/genel_kultur"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonshape"
+            android:text="genel kültür"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/egitim_bilimleri"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonshape"
+            android:text="eğitim bilimleri"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
